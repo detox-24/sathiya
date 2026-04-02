@@ -1,0 +1,18 @@
+{{ define "main" }}
+<header class="list-header">
+  <h1 class="list-title">{{ .Title }}</h1>
+  {{ with .Params.description }}<p class="list-desc">{{ . }}</p>{{ end }}
+</header>
+
+<ul class="post-list" aria-label="{{ .Title }} posts">
+  {{ range .Pages.ByDate.Reverse }}
+  <li class="post-list__item fade-in">
+    <time class="post-list__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan '06" }}</time>
+    <div class="post-list__content">
+      <a href="{{ .RelPermalink }}" class="post-list__title">{{ .Title }}</a>
+      {{ with .Params.subtitle }}<p class="post-list__sub">{{ . }}</p>{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

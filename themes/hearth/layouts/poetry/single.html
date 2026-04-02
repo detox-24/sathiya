@@ -1,0 +1,20 @@
+{{ define "body-class" }}page page--poetry{{ end }}
+
+{{ define "main" }}
+<article class="post post--poetry">
+  <header class="post-header post-header--centered">
+    <div class="post-meta post-meta--centered">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2006" }}</time>
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    <hr class="post-divider post-divider--centered">
+  </header>
+
+  <div class="poetry-body">
+    {{ .Content }}
+  </div>
+
+  {{ partial "post-nav.html" . }}
+</article>
+{{ end }}

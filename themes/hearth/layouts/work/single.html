@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="post post--work">
+  <header class="post-header">
+    <div class="post-meta">
+      {{ with .Params.category }}<span class="post-meta__cat">{{ . }}</span>{{ end }}
+      {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2006" }}</time>{{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    {{ with .Params.link }}
+    <a href="{{ . }}" class="work-link" target="_blank" rel="noopener noreferrer">
+      Visit project →
+    </a>
+    {{ end }}
+    <hr class="post-divider">
+  </header>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  {{ partial "post-nav.html" . }}
+</article>
+{{ end }}

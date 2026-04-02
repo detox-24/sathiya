@@ -1,0 +1,9 @@
+name        = "Hearth"
+license     = "MIT"
+description = "A warm, earthy, literary Hugo theme for writers, poets, and thinkers."
+tags        = ["minimal", "literary", "warm", "serif", "blog", "portfolio", "poetry"]
+features    = ["writing", "poetry", "journal", "portfolio"]
+min_version = "0.110.0"
+
+[author]
+  name = ""

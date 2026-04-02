@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sathiya Moorthi</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sathiya Moorthi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Slowness</title>
+      <link>http://localhost:1313/writing/on-slowness/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/on-slowness/</guid>
+      <description>&lt;p&gt;There is a road I used to take that added twelve minutes to my commute. It wound past a field that changed with every season — stubble in autumn, a brilliant sheet of green in spring, and in summer a kind of gold so pure it seemed borrowed from somewhere else.&lt;/p&gt;&#xA;&lt;p&gt;I stopped taking it somewhere around the third year. The twelve minutes began to feel like theft. I had things to do, messages to answer, a future to arrive at.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>March Rain</title>
+      <link>http://localhost:1313/journal/march-rain/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/march-rain/</guid>
+      <description>&lt;p&gt;Woke to the sound of it before I opened my eyes. Rain on the skylight — that specific rhythm that means the day will be slow and permitted.&lt;/p&gt;&#xA;&lt;p&gt;Made coffee and stood at the window for longer than I meant to. The street was nearly empty. A man walked by with no umbrella, unhurried, face tilted up. I felt oddly moved by this.&lt;/p&gt;&#xA;&lt;p&gt;There is something I want to say about threshold weather — the kind that lives between seasons, neither one thing nor another. I am always most myself at these edges.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threshold</title>
+      <link>http://localhost:1313/poetry/threshold/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/poetry/threshold/</guid>
+      <description>&lt;p&gt;Between the lamp and the window&lt;br&gt;&#xA;there is a country I return to —&lt;/p&gt;&#xA;&lt;p&gt;not sleep, not waking,&lt;br&gt;&#xA;but that particular amber&lt;/p&gt;&#xA;&lt;p&gt;where the day&lt;br&gt;&#xA;unstitches itself from me&lt;/p&gt;&#xA;&lt;p&gt;and I become&lt;br&gt;&#xA;briefly, briefly&lt;/p&gt;&#xA;&lt;p&gt;nobody&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Field Notes</title>
+      <link>http://localhost:1313/work/field-notes/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/field-notes/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Field Notes&lt;/em&gt; began as a small PDF sent to forty-three friends. It grew, the way things do when they are made without expectations — slowly, and then all at once.&lt;/p&gt;&#xA;&lt;p&gt;The journal publishes writers who pay attention to place: essays, dispatches, photographs made with intention. Each issue is organized around a season and a question.&lt;/p&gt;&#xA;&lt;p&gt;Working on Field Notes taught me that editing is also a kind of writing — a listening for what wants to be said, and a clearing of everything that isn&amp;rsquo;t that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

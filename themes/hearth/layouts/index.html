@@ -1,0 +1,41 @@
+{{ define "body-class" }}home{{ end }}
+
+{{ define "main" }}
+<section class="home-hero">
+  <h1 class="home-hero__name">{{ .Site.Title }}</h1>
+  <hr class="home-hero__rule">
+  <p class="home-hero__tagline">{{ .Site.Params.tagline }}</p>
+</section>
+
+{{ $all := where .Site.RegularPages "Type" "not in" (slice "taxonomy" "term" "page") }}
+{{ $recent := first 7 ($all.ByDate.Reverse) }}
+{{ if $recent }}
+<section class="home-section">
+  <h2 class="home-section__label">Recent</h2>
+  <ul class="recent-list" aria-label="Recent posts">
+    {{ range $recent }}
+    <li class="recent-list__item fade-in">
+      <time class="recent-list__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan '06" }}</time>
+      <a href="{{ .RelPermalink }}" class="recent-list__title">{{ .Title }}</a>
+      <span class="recent-list__type" aria-label="Type: {{ .Type }}">{{ .Type }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+
+{{ if .Site.Sections }}
+<section class="home-section home-section--explore">
+  <h2 class="home-section__label">Explore</h2>
+  <div class="sections-grid">
+    {{ range .Site.Sections }}
+    <a href="{{ .RelPermalink }}" class="section-card fade-in">
+      <span class="section-card__name">{{ .Title }}</span>
+      {{ with .Params.description }}<p class="section-card__desc">{{ . }}</p>{{ end }}
+      <span class="section-card__count">{{ len .Pages }} pieces</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

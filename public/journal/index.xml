@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal on Sathiya Moorthi</title>
+    <link>http://localhost:1313/journal/</link>
+    <description>Recent content in Journal on Sathiya Moorthi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>March Rain</title>
+      <link>http://localhost:1313/journal/march-rain/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/march-rain/</guid>
+      <description>&lt;p&gt;Woke to the sound of it before I opened my eyes. Rain on the skylight — that specific rhythm that means the day will be slow and permitted.&lt;/p&gt;&#xA;&lt;p&gt;Made coffee and stood at the window for longer than I meant to. The street was nearly empty. A man walked by with no umbrella, unhurried, face tilted up. I felt oddly moved by this.&lt;/p&gt;&#xA;&lt;p&gt;There is something I want to say about threshold weather — the kind that lives between seasons, neither one thing nor another. I am always most myself at these edges.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

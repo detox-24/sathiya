@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{ with .Params.location }}<span class="post-meta__loc">{{ . }}</span>{{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    <hr class="post-divider">
+  </header>
+
+  <div class="post-body post-body--{{ .Type }}">
+    {{ .Content }}
+  </div>
+
+  {{ partial "post-nav.html" . }}
+</article>
+{{ end }}

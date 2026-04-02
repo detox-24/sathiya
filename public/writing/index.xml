@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Sathiya Moorthi</title>
+    <link>http://localhost:1313/writing/</link>
+    <description>Recent content in Writing on Sathiya Moorthi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Slowness</title>
+      <link>http://localhost:1313/writing/on-slowness/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/on-slowness/</guid>
+      <description>&lt;p&gt;There is a road I used to take that added twelve minutes to my commute. It wound past a field that changed with every season — stubble in autumn, a brilliant sheet of green in spring, and in summer a kind of gold so pure it seemed borrowed from somewhere else.&lt;/p&gt;&#xA;&lt;p&gt;I stopped taking it somewhere around the third year. The twelve minutes began to feel like theft. I had things to do, messages to answer, a future to arrive at.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
