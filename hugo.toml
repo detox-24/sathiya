@@ -1,4 +1,4 @@
-baseURL       = "https://detox-24.codeberg.page/sathiya/"
+baseURL       = "https://detox-24.github.io/sathiya/"
 languageCode  = "en-us"
 title         = "Sathiya Moorthi"
 theme         = "hearth"
